@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Bitter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4PzOWA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbfCL8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8SjYCL8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8RHYCL8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nova Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/novamono/v13/Cn-0JtiGWQ5Ajb--MRKfYA.ttf) format('truetype');
+}
+.bitter {
+  font-family: 'Bitter', serif;
+}
+.nova {
+  font-family: 'Nova Mono', monospace;
+}
+p {
+  font-family: 'Bitter', serif;
+  color: #2e3999;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  background-color: #abd2e9;
+}
+.question {
+  width: 100vw;
+  height: 100vh;
+}
+.question p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.approach {
+  display: grid;
+  grid-template-columns: 30vw 30vw;
+  column-gap: 40vw;
+  row-gap: 10vw;
+}
+.approach .image {
+  margin: auto;
+}
+.approach .image.girl img {
+  width: 15vw;
+}
+.approach .image.robot img {
+  width: 25vw;
+}
+.confession {
+  position: absolute;
+  top: 100vh;
+  width: 100vw;
+}
+.confession p {
+  position: absolute;
+}
+.confession .bridge {
+  top: 10vw;
+  left: 30vw;
+}
+.confession .but {
+  top: 31vw;
+  left: 40vw;
+}
+.confession .they {
+  top: 46vw;
+  left: 41vw;
+}
+.confession .to {
+  top: 64vw;
+  left: 41vw;
+}
+.confession .like {
+  top: 96vw;
+  left: 38vw;
+}
+.confession .maybe {
+  top: 130vw;
+  left: 48vw;
+}
+.kill {
+  position: relative;
+  width: 100vw;
+  height: 200vh;
+}
+.kill p {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #be0c0c;
+}
+.kill #square {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.kill #square img {
+  width: 70vw;
+}
+.kill a {
+  display: block;
+  position: absolute;
+  width: 50vw;
+  height: 45vw;
+  top: 5vw;
+  left: 10vw;
+}

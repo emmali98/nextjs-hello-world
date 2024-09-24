@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;0,700;1,400&family=Nova+Mono&display=swap');
+.bitter {
+  font-family: 'Bitter', serif;
+}
+.nova {
+  font-family: 'Nova Mono', monospace;
+}
+
+// STYLES
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, rgb(255, 115, 0) 35%, rgb(201, 224, 255) 40%, rgb(206, 227, 255) 73%, rgb(255, 251, 227) 77%);
+}
+h1, h2 { .nova(); }
+h2 {
+  font-weight: normal;
+  text-align: center
+}
+p, li { .bitter(); }
+a {
+  color: rgb(255, 250, 242);
+  text-decoration: none;
+}
+
+.section {
+  margin: 20vw 20vw;
+}
+
+#main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  a {
+    display: block;
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+}
+
+#toc {
+  text-align: center;
+  h2, a {color: rgb(80, 84, 124);}
+  ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 2em;
+  }
+}
+
+#about {
+  h2, p, a {
+    color: rgb(177, 105, 24);
+  }
+}

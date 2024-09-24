@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;0,700;1,400&family=Nova+Mono&display=swap');
+.bitter {
+  font-family: 'Bitter', serif;
+}
+.nova {
+  font-family: 'Nova Mono', monospace;
+}
+
+p {
+  .bitter();
+  color:rgb(240, 224, 11);
+  &.robot { color:rgb(175, 212, 255)}
+}
+
+body {
+  margin: 0;
+  background-color: rgb(61, 94, 156);
+}
+
+.image {
+  z-index: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  img {
+    margin: 10vw 0;
+    width: 60vw;
+  }
+}
+
+p {
+  position: absolute;
+}
+
+.hi { top: 15vw; left: 22vw; }
+.name { top: 39vw; left: 50vw; }
+.come-here { top: 46vw; left: 50vw; }
+.friendly { top: 61vw; left: 33vw; }
+.hmm { top: 69vw; left: 33vw; }
+.full-name { top: 82vw; left: 28vw; }
+.lovely-1 { top: 101vw; left: 50vw; }
+.lovely-2 { top: 108vw; left: 51vw; }
+.robot { top: 147vw; left: 50vw; }

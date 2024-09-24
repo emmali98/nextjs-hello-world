@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div>
       Hello World.{" "}
-      <Link href="/about">
-        About
+      <Link href="/chapter/0">
+        start
       </Link>
     </div>
   );

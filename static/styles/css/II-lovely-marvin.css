@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Bitter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bitter/v19/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4PzOWA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbfCL8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8SjYCL8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bitter/v19/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8RHYCL8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nova Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/novamono/v13/Cn-0JtiGWQ5Ajb--MRKfYA.ttf) format('truetype');
+}
+.bitter {
+  font-family: 'Bitter', serif;
+}
+.nova {
+  font-family: 'Nova Mono', monospace;
+}
+p {
+  font-family: 'Bitter', serif;
+  color: #f0e00b;
+}
+p.robot {
+  color: #afd4ff;
+}
+body {
+  margin: 0;
+  background-color: #3d5e9c;
+}
+.image {
+  z-index: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.image img {
+  margin: 10vw 0;
+  width: 60vw;
+}
+p {
+  position: absolute;
+}
+.hi {
+  top: 15vw;
+  left: 22vw;
+}
+.name {
+  top: 39vw;
+  left: 50vw;
+}
+.come-here {
+  top: 46vw;
+  left: 50vw;
+}
+.friendly {
+  top: 61vw;
+  left: 33vw;
+}
+.hmm {
+  top: 69vw;
+  left: 33vw;
+}
+.full-name {
+  top: 82vw;
+  left: 28vw;
+}
+.lovely-1 {
+  top: 101vw;
+  left: 50vw;
+}
+.lovely-2 {
+  top: 108vw;
+  left: 51vw;
+}
+.robot {
+  top: 147vw;
+  left: 50vw;
+}

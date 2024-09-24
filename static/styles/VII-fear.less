@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;0,700;1,400&family=Nova+Mono&display=swap');
+.bitter {
+  font-family: 'Bitter', serif;
+}
+.nova {
+  font-family: 'Nova Mono', monospace;
+}
+
+p {
+  .bitter();
+  color: rgb(46, 57, 153);
+}
+a { text-decoration: none;}
+
+
+body {
+  margin: 0;
+  background-color: rgb(171, 210, 233);
+}
+
+.question {
+  width: 100vw;
+  height: 100vh;
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+.approach {
+  display: grid;
+  grid-template-columns: 30vw 30vw;
+  column-gap: 40vw;
+  row-gap: 10vw;
+
+  .image { margin: auto; }
+  .image.girl img {
+    width: 15vw;
+  }
+  .image.robot img {
+    width: 25vw;
+  }
+}
+
+.confession {
+  position: absolute;
+  top: 100vh;
+  width: 100vw;
+  p { position: absolute;}
+  .bridge { top: 10vw; left: 30vw; }
+  .but { top: 31vw; left: 40vw; }
+  .they { top: 46vw; left: 41vw; }
+  .to { top: 64vw; left: 41vw; }
+  .like { top: 96vw; left: 38vw; }
+  .maybe { top: 130vw; left: 48vw; }
+}
+
+.kill {
+  position: relative;
+  width: 100vw;
+  height: 200vh;
+  p {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(190, 12, 12);
+  }
+  #square {
+    img { width: 70vw; }
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  a {
+    display:block;
+    position: absolute;
+    width: 50vw;
+    height: 45vw;
+    top: 5vw;
+    left: 10vw;
+  }
+}
